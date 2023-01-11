@@ -29,7 +29,10 @@ const PageWithSidebar = ({ children }) => {
         <ProgressBarList title="Kentnisse" data={data.itKnowledge} />
         <ProgressBarList title="Sprachen" data={data.languages} />
       </View>
-      <View style={styles.mainInformation}>{children}</View>
+      <View style={styles.mainInformation}>
+        <PersonalInformation />
+        {children}
+      </View>
     </Page>
   );
 };
