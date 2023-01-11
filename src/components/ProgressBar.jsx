@@ -6,15 +6,15 @@ const styles = StyleSheet.create({
     marginBottom: 3,
   },
   progressBar: {
-    height: 10,
+    height: 8,
     backgroundColor: "rgba(23, 35, 54)",
   },
   progressBarValue: {
     backgroundColor: "white",
-    height: 10,
+    height: 8,
   },
   box: {
-    marginBottom: 5,
+    marginBottom: 8,
   },
 });
 

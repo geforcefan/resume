@@ -15,11 +15,13 @@ import PersonalInformation from "./sections/PersonalInformation";
 import Experience from "./sections/Experience";
 import ProgressBarList from "./sections/ProgressBarList";
 
+import TitledBox from "./components/TitledBox";
+import Tags from "./components/Tags";
+
 import data from "./data.json";
 
-// Create Document Component
-const ResumeDocument = () => (
-  <Document>
+const PageWithSidebar = ({ children }) => {
+  return (
     <Page size="A4" style={styles.page}>
       <View style={styles.sideInformation}>
         <Address />
@@ -27,11 +29,20 @@ const ResumeDocument = () => (
         <ProgressBarList title="Kentnisse" data={data.itKnowledge} />
         <ProgressBarList title="Sprachen" data={data.languages} />
       </View>
-      <View style={styles.mainInformation}>
-        <PersonalInformation />
-        <Experience />
-      </View>
+      <View style={styles.mainInformation}>{children}</View>
     </Page>
+  );
+};
+
+// Create Document Component
+const ResumeDocument = () => (
+  <Document>
+    <PageWithSidebar>
+      <Experience title="Berufserfahrung" data={data.experience} />
+    </PageWithSidebar>
+    <PageWithSidebar>
+      <Experience title="Bildung" data={data.school} />
+    </PageWithSidebar>
   </Document>
 );
 

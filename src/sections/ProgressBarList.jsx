@@ -4,7 +4,7 @@ import { StyleSheet, View } from "@react-pdf/renderer";
 
 const styles = StyleSheet.create({
   items: {
-    width: "80%",
+    width: "70%",
     alignSelf: "center",
   },
 });

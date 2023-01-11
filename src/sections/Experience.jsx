@@ -1,6 +1,5 @@
 import TitledBox from "../components/TitledBox";
 import { StyleSheet, Text, View } from "@react-pdf/renderer";
-import data from "../data.json";
 import moment from "moment";
 import List, { Item } from "../components/List";
 import Tags from "../components/Tags";
@@ -18,10 +17,8 @@ const ExperienceBlock = ({
   return (
     <View style={styles.experience}>
       <View style={styles.timeline}>
-        <Text>{to === "now" ? "Jetzt" : moment(to).format("MMMM yyy")}</Text>
-        <Text>
-          {from === "now" ? "Jetzt" : moment(from).format("MMMM yyy")}
-        </Text>
+        <Text>{to === "now" ? "Jetzt" : moment(to).format("MMM yyy")}</Text>
+        <Text>{from === "now" ? "Jetzt" : moment(from).format("MMM yyy")}</Text>
       </View>
       <View style={styles.pointsAndLines}>
         <View style={styles.point} />
@@ -48,14 +45,14 @@ const ExperienceBlock = ({
   );
 };
 
-const Experience = () => {
+const Experience = ({ title, data }) => {
   return (
-    <TitledBox title="Berufserfahrung">
-      {data.experience.map((experience, i) => (
+    <TitledBox title={title}>
+      {data.map((experience, i) => (
         <ExperienceBlock
           key={i}
           {...experience}
-          isLast={i >= data.experience.length - 1}
+          isLast={i >= data.length - 1}
         />
       ))}
     </TitledBox>
@@ -95,6 +92,7 @@ const styles = StyleSheet.create({
     alignItems: "flex-end",
     alignContent: "flex-end",
     fontWeight: "light",
+    width: 70,
   },
   pointsAndLines: {
     marginRight: 10,

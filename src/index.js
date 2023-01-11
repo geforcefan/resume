@@ -2,6 +2,7 @@ import React from "react";
 import { createRoot } from "react-dom/client";
 import { PDFViewer } from "@react-pdf/renderer";
 import moment from "moment";
+import "moment/locale/de";
 
 import ResumeDocument from "./ResumeDocument";
 

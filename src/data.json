@@ -29,7 +29,55 @@
     "Türkisch": 0.9,
     "English": 0.8
   },
+  "school": [
+    {
+      "title": "Ausbildung FI - Anwendungsentwickler",
+      "city": "Schaafheim",
+      "company": "Ragbit GmbH",
+      "from": "2013-06",
+      "to": "2010-09",
+      "tasks": [
+        "Erstellung von Webseiten für große und mittelständische Unternehmen",
+        "Kernentwicklung des Hauseigenen CMS „Matrix CMS“",
+        "Entwicklung und Konzeption der Software"
+      ],
+      "tags": [
+        "PHP",
+        "JavaScript",
+        "MySQL",
+        "CSS"
+      ]
+    },
+
+    {
+      "title": "Realschulabschluss",
+      "city": "Schaafheim",
+      "company": "Eichwaldschule",
+      "from": "1998-06",
+      "to": "2008-07",
+      "tasks": [],
+      "tags": []
+    }
+  ],
   "experience": [
+    {
+      "title": "Senior Process Developer",
+      "city": "Frankfurt am Main",
+      "company": "comdirect bank AG | GB onvista bank",
+      "from": "2018-10",
+      "to": "2019-03",
+      "tasks": [
+        "Automatisierung von Geschäftsprozessen",
+        "Aufnahme von Prozessen",
+        "Planen der Aufgaben"
+      ],
+      "tags": [
+        "Blue Prism",
+        "C#",
+        "VB",
+        ".NET"
+      ]
+    },
     {
       "title": "Software-Entwickler",
       "city": "Frankfurt am Main",
@@ -55,25 +103,28 @@
     },
     {
       "title": "Software-Entwickler",
-      "city": "Frankfurt am Main",
-      "company": "comdirect bank AG | GB onvista bank",
-      "from": "2017-04",
-      "to": "2018-10",
+      "city": "Darmstadt",
+      "company": "PEAK-14 GmbH",
+      "from": "2017-03",
+      "to": "2013-06",
       "tasks": [
-        "Entwicklung des onvista Portals",
-        "Einführung einer Frontend-Framework",
+        "Entwicklung von technologischen Konzepten zur Funktionserweiterung",
+        "Entwicklung von Bedienungskonzepten",
+        "Entwicklung einer Bedienoberfläche (UI-Design)",
+        "Anwendungsentwicklung",
+        "Leitung der Softwareentwicklung",
+        "Planen der Aufgaben",
         "Softwarearchitektur",
-        "Frontend und Backend Trennung",
-        "Fachlicher Austausch neuer Technologie Ansätze"
+        "Fachlicher Austausch neuer Technologie Ansätze",
+        "Frontend und Backend Trennung"
       ],
       "tags": [
         "PHP",
         "JavaScript",
-        "Symfony 4",
-        "React",
+        "Zend2",
+        "CSS",
         "LESS",
-        "RESTful",
-        "Elasticssearch"
+        "ActionScript 3"
       ]
     }
   ]
