@@ -36,9 +36,32 @@
       "company": "comdirect bank AG | GB onvista bank",
       "from": "2017-04",
       "to": "2018-10",
-      "job": [
+      "tasks": [
         "Entwicklung des onvista Portals",
-        "Einführung einer Frontend-Framework (React)",
+        "Einführung einer Frontend-Framework",
+        "Softwarearchitektur",
+        "Frontend und Backend Trennung",
+        "Fachlicher Austausch neuer Technologie Ansätze"
+      ],
+      "tags": [
+        "PHP",
+        "JavaScript",
+        "Symfony 4",
+        "React",
+        "LESS",
+        "RESTful",
+        "Elasticssearch"
+      ]
+    },
+    {
+      "title": "Software-Entwickler",
+      "city": "Frankfurt am Main",
+      "company": "comdirect bank AG | GB onvista bank",
+      "from": "2017-04",
+      "to": "2018-10",
+      "tasks": [
+        "Entwicklung des onvista Portals",
+        "Einführung einer Frontend-Framework",
         "Softwarearchitektur",
         "Frontend und Backend Trennung",
         "Fachlicher Austausch neuer Technologie Ansätze"

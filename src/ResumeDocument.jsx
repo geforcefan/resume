@@ -12,6 +12,10 @@ import AboutMe from "./sections/AboutMe";
 
 import "./helper/registerFonts";
 import PersonalInformation from "./sections/PersonalInformation";
+import Experience from "./sections/Experience";
+import ProgressBarList from "./sections/ProgressBarList";
+
+import data from "./data.json";
 
 // Create Document Component
 const ResumeDocument = () => (
@@ -20,9 +24,12 @@ const ResumeDocument = () => (
       <View style={styles.sideInformation}>
         <Address />
         <AboutMe />
+        <ProgressBarList title="Kentnisse" data={data.itKnowledge} />
+        <ProgressBarList title="Sprachen" data={data.languages} />
       </View>
       <View style={styles.mainInformation}>
         <PersonalInformation />
+        <Experience />
       </View>
     </Page>
   </Document>
@@ -37,9 +44,10 @@ const styles = StyleSheet.create({
   },
   sideInformation: {
     paddingTop: 45,
-    width: "35%",
+    width: "30%",
     color: "white",
     backgroundColor: "rgb(26, 59, 94)",
+    textAlign: "center",
   },
   mainInformation: {
     flex: 1,

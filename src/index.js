@@ -1,10 +1,13 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import { createRoot } from "react-dom/client";
-
 import { PDFViewer } from "@react-pdf/renderer";
+import moment from "moment";
+
 import ResumeDocument from "./ResumeDocument";
+
 import "./index.scss";
+
+moment.locale("de");
 
 const App = () => (
   <PDFViewer style={{ border: 0, height: "100vh", width: "100vw" }}>
