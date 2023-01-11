@@ -1,0 +1,57 @@
+{
+  "personalInformation": {
+    "name": "Ercan",
+    "surname": "Akyürek",
+    "address": {
+      "street": "Darmstädter Str. 10",
+      "zip": "64850",
+      "city": "Schaafheim"
+    },
+    "tel": "+49 (0) 176 83 333 155",
+    "mail": "ercan.akyuerek@gmail.com",
+    "birth": {
+      "day": "1991-07-17",
+      "city": "Aschaffenburg"
+    },
+    "citizen": "deutsch",
+    "martialStatus": "verheiratet"
+  },
+  "itKnowledge": {
+    "PHP": 0.9,
+    "JavaScript": 0.95,
+    "CSS / LESS": 0.8,
+    "React": 0.9,
+    "Java": 0.7,
+    "C++": 0.7
+  },
+  "languages": {
+    "Deutsch": 1,
+    "Türkisch": 0.9,
+    "English": 0.8
+  },
+  "experience": [
+    {
+      "title": "Software-Entwickler",
+      "city": "Frankfurt am Main",
+      "company": "comdirect bank AG | GB onvista bank",
+      "from": "2017-04",
+      "to": "2018-10",
+      "job": [
+        "Entwicklung des onvista Portals",
+        "Einführung einer Frontend-Framework (React)",
+        "Softwarearchitektur",
+        "Frontend und Backend Trennung",
+        "Fachlicher Austausch neuer Technologie Ansätze"
+      ],
+      "tags": [
+        "PHP",
+        "JavaScript",
+        "Symfony 4",
+        "React",
+        "LESS",
+        "RESTful",
+        "Elasticssearch"
+      ]
+    }
+  ]
+}
