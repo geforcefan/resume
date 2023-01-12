@@ -67,10 +67,10 @@
       "from": "2021-11",
       "to": "now",
       "tasks": [
-        "Entwicklung eines Bestellplatforms für Gastronomieunternehmen",
+        "Entwicklung einer Bestellplatform für Gastronomieunternehmen",
+        "Entwicklung eines eigenen Frameworks auf Basis von React und React Native um Mobile und Web Applikationen aus einer gemeinsamen Basis zu erstellen",
         "Softwarearchitektur",
         "Neukundenakquise",
-        "Etablierung einer eigenen Framework auf Basis von React und React Native um Mobile und Web Applikationen aus einer gemeinsamen Basis zu erstellen",
         "Buchhaltung",
         "Anbindung von Payment Services"
       ],
