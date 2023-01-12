@@ -61,6 +61,57 @@
   ],
   "experience": [
     {
+      "title": "Geschäftsführer und Software-Entwickler",
+      "city": "Mainhausen",
+      "company": "AEON Digital Technologies UG",
+      "from": "2021-11",
+      "to": "now",
+      "tasks": [
+        "Entwicklung eines Bestellplatforms für Gastronomieunternehmen",
+        "Softwarearchitektur",
+        "Neukundenakquise",
+        "Etablierung einer eigenen Framework auf Basis von React und React Native um Mobile und Web Applikationen aus einer gemeinsamen Basis zu erstellen",
+        "Buchhaltung",
+        "Anbindung von Payment Services"
+      ],
+      "tags": [
+        "TypeScript",
+        "React",
+        "React Native",
+        "Less",
+        "Redux",
+        "Storybook",
+        "LEXWARE",
+        "Secupay",
+        "iOS",
+        "Andoid"
+      ]
+    },
+    {
+      "title": "Senior Software-Entwickler",
+      "city": "Frankfurt am Main",
+      "company": "Cashlink Technologies GmbH",
+      "from": "2019-04",
+      "to": "2021-10",
+      "tasks": [
+        "Entwicklung einer digitalen Zeichnungsstrecke",
+        "Entwicklung eines Styleguides",
+        "Softwarearchitektur",
+        "Planen der Aufgaben",
+        "Fachlicher Austausch neuer Technologie Ansätze"
+      ],
+      "tags": [
+        "TypeScript",
+        "React",
+        "Less",
+        "Redux",
+        "Storybook",
+        "Smart contract",
+        "Ethereum",
+        "Solidity"
+      ]
+    },
+    {
       "title": "Senior Process Developer",
       "city": "Frankfurt am Main",
       "company": "comdirect bank AG | GB onvista bank",

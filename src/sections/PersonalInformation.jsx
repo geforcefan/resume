@@ -1,7 +1,7 @@
 import { StyleSheet, View, Text } from "@react-pdf/renderer";
 import data from "../data.json";
 
-const PersonalInformation = ({}) => {
+const PersonalInformation = () => {
   return (
     <View style={styles.box}>
       <Text

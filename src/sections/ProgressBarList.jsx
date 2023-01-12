@@ -2,13 +2,6 @@ import TitledBox from "../components/TitledBox";
 import ProgressBar from "../components/ProgressBar";
 import { StyleSheet, View } from "@react-pdf/renderer";
 
-const styles = StyleSheet.create({
-  items: {
-    width: "70%",
-    alignSelf: "center",
-  },
-});
-
 const ProgressBarList = ({ title, data }) => {
   return (
     <TitledBox title={title}>
@@ -22,5 +15,12 @@ const ProgressBarList = ({ title, data }) => {
     </TitledBox>
   );
 };
+
+const styles = StyleSheet.create({
+    items: {
+        width: "70%",
+        alignSelf: "center",
+    },
+});
 
 export default ProgressBarList;

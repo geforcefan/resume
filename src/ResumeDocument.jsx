@@ -1,11 +1,4 @@
-import {
-  Document,
-  Page,
-  Text,
-  View,
-  StyleSheet,
-  Font,
-} from "@react-pdf/renderer";
+import { Document, Page, View, StyleSheet } from "@react-pdf/renderer";
 
 import Address from "./sections/Address";
 import AboutMe from "./sections/AboutMe";
@@ -15,15 +8,17 @@ import PersonalInformation from "./sections/PersonalInformation";
 import Experience from "./sections/Experience";
 import ProgressBarList from "./sections/ProgressBarList";
 
-import TitledBox from "./components/TitledBox";
-import Tags from "./components/Tags";
-
 import data from "./data.json";
+import Avatar from "./sections/Avatar";
+
+const experiencesOne = [...data.experience].slice(0, 3);
+const experiencesTwo = [...data.experience].slice(3, 5);
 
 const PageWithSidebar = ({ children }) => {
   return (
     <Page size="A4" style={styles.page}>
       <View style={styles.sideInformation}>
+        <Avatar />
         <Address />
         <AboutMe />
         <ProgressBarList title="Kentnisse" data={data.itKnowledge} />
@@ -41,7 +36,10 @@ const PageWithSidebar = ({ children }) => {
 const ResumeDocument = () => (
   <Document>
     <PageWithSidebar>
-      <Experience title="Berufserfahrung" data={data.experience} />
+      <Experience title="Berufserfahrung" data={experiencesOne} />
+    </PageWithSidebar>
+    <PageWithSidebar>
+      <Experience title="Berufserfahrung" data={experiencesTwo} />
     </PageWithSidebar>
     <PageWithSidebar>
       <Experience title="Bildung" data={data.school} />
@@ -67,7 +65,6 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingTop: 45,
     paddingLeft: 35,
-    paddingBottom: 45,
     paddingRight: 35,
   },
 });
