@@ -17,12 +17,12 @@
     "martialStatus": "verheiratet"
   },
   "itKnowledge": {
-    "PHP": 0.9,
-    "JavaScript": 0.95,
-    "CSS / LESS": 0.8,
+    "TypeScript": 0.95,
+    "C++": 0.95,
     "React": 0.9,
-    "Java": 0.7,
-    "C++": 0.7
+    "CSS / LESS": 0.8,
+    "PHP": 0.9,
+    "Java": 0.7
   },
   "languages": {
     "Deutsch": 1,
