@@ -4,6 +4,8 @@ import moment from "moment";
 import List, { Item } from "../components/List";
 import Tags from "../components/Tags";
 
+import data from '../data.json';
+
 const ExperienceBlock = ({
   title,
   company,
@@ -64,13 +66,13 @@ const styles = StyleSheet.create({
     width: 12,
     height: 12,
     borderRadius: 12,
-    border: "2px solid rgb(26, 59, 94)",
+    border: `2px solid ${data.colors.primary}`,
   },
   line: {
     width: "2",
     height: "100%",
     position: "absolute",
-    backgroundColor: "rgb(26, 59, 94)",
+    backgroundColor: data.colors.primary,
     left: "50%",
     marginLeft: "-1",
     top: 10,

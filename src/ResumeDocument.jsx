@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
     paddingTop: 45,
     width: "30%",
     color: "white",
-    backgroundColor: "rgb(26, 59, 94)",
+    backgroundColor: data.colors.primary,
     textAlign: "center",
   },
   mainInformation: {

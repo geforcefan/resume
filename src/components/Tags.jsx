@@ -1,4 +1,5 @@
 import { StyleSheet, View, Text } from "@react-pdf/renderer";
+import data from '../data.json';
 
 const styles = StyleSheet.create({
   tags: {
@@ -10,7 +11,7 @@ const styles = StyleSheet.create({
   tag: {
     display: "inline-block",
     color: "white",
-    backgroundColor: "rgb(26, 59, 94)",
+    backgroundColor: data.colors.primary,
     fontSize: 10,
     borderRadius: 3,
     padding: 5,

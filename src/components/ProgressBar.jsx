@@ -1,4 +1,7 @@
 import { StyleSheet, View, Text } from "@react-pdf/renderer";
+import { colord } from "colord";
+
+import data from '../data.json';
 
 const styles = StyleSheet.create({
   title: {
@@ -7,7 +10,7 @@ const styles = StyleSheet.create({
   },
   progressBar: {
     height: 8,
-    backgroundColor: "rgba(23, 35, 54)",
+    backgroundColor: colord(data.colors.primary).darken(0.2).toHex(),
   },
   progressBarValue: {
     backgroundColor: "white",

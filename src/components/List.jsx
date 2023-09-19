@@ -1,6 +1,8 @@
 import React from "react";
 import { Text, View, StyleSheet } from "@react-pdf/renderer";
 
+import data from '../data.json';
+
 const List = ({ children }) => children;
 
 export const Item = ({ children }) => (
@@ -20,7 +22,7 @@ const styles = StyleSheet.create({
     width: 5,
     height: 5,
     borderRadius: 5,
-    backgroundColor: "rgb(26, 59, 94)",
+    backgroundColor: data.colors.primary,
     alignContent: "center",
     marginRight: 5,
     marginTop: 5,
